@@ -1,0 +1,97 @@
+body {
+    color: black;
+    font-size: 16px;
+    margin: 0px 0px 0px 100px;
+    width: 600px;
+}
+
+ul {
+  padding-left:0;
+}
+
+nav li {
+  display: inline;
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+nav li a {
+  font-family: 'rosario';
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav li:last-child {
+  margin-right: 0;
+  border-right: 0;
+}
+
+.post-date {
+  font-size:11px;
+  color:#868484;
+}
+
+.gist-file {
+  padding:10px;
+}
+
+pre {
+  font-size:11px !important;
+  overflow:scroll;
+}
+
+p code {
+  font-size:12px;
+}
+
+div#header {
+    padding: 12px 0px 12px 0px;
+}
+
+div#logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#header #navigation {
+    text-align: right;
+}
+
+div#header #navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+div#footer {
+    color: #555;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a { color:#3E3E46; }
+
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
